@@ -8,14 +8,14 @@ app.get('/', (req, res) => {
   });
 });
 
-app.get('/about', (req, res) => {
-  res.sendFile('./static/about.html', {
+app.get('/catalogo', (req, res) => {
+  res.sendFile('./static/catalogo.html', {
     root: __dirname
   });
 });
 
-app.get('/contact', (req, res) => {
-  res.sendFile('./static/contact.html', {
+app.get('/nosotros', (req, res) => {
+  res.sendFile('./static/nosotros.html', {
     root: __dirname
   });
 });
