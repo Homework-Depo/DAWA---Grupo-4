@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-lin {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-lin:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(86, 69, 74)
+}
+.btn{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(87, 79, 81);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    
+}
