@@ -14,8 +14,20 @@ app.get('/about', (req, res) => {
   });
 });
 
+app.get('/services', (req, res) => {
+  res.sendFile('./static/services.html', {
+    root: __dirname
+  });
+});
+
 app.get('/contact', (req, res) => {
   res.sendFile('./static/contact.html', {
+    root: __dirname
+  });
+});
+
+app.get('/catalog', (req, res) => {
+  res.sendFile('./static/catalog.html', {
     root: __dirname
   });
 });
